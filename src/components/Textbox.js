@@ -91,11 +91,11 @@ export default function Textbox(props) {
         <h1>Enter your text here for analysis</h1><br/>
         <textarea className="form-control" style={wrStyle} value={text} onChange={entry} id="text" rows="5" placeholder='enter your text here'></textarea>
         <div className='my-2'>
-          <button className='btn mx-1' style={color} onClick={upper}>UPPERCASE</button>
-          <button className="btn mx-1" style={color} onClick={lower}>lowercase</button>
-          <button className="btn mx-1" style={color} onClick={capitalise}>Capitalise</button>
-          <button className="btn mx-1" style={color} onClick={Copy}>Copy to clipboard</button>
-          <button className="btn mx-1" style={color} onClick={clear}>clear</button>
+          <button className='btn m-1' style={color} onClick={upper}>UPPERCASE</button>
+          <button className="btn m-1" style={color} onClick={lower}>lowercase</button>
+          <button className="btn m-1" style={color} onClick={capitalise}>Capitalise</button>
+          <button className="btn m-1" style={color} onClick={Copy}>Copy to clipboard</button>
+          <button className="btn m-1" style={color} onClick={clear}>clear</button>
         </div>
         <div className="container">
           <h3>Text summary</h3>

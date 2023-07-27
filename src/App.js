@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <Navbar title="firstReactApp" f1="Home" f2="About us" apptheme={appTheme} theme={theme} alertFun={pickAlert}/>
-      <div style={{height:'20px'}}><Alert msg={alertMsg} /></div>
+      <div style={{height:'30px'}}><Alert msg={alertMsg} /></div>
       <div className="container">
         <Textbox theme={theme} alertFun={pickAlert}/>
       </div>
